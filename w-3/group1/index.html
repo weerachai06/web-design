@@ -5,21 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
-            background-color: lightslategrey;
+        .container {
+            background-color: violet;
+            display: flex;
+            flex-direction: row;
         }
-        .item{
+        .item {
             color: white;
+            background-color: blue;
+            width: 500px;
+            height: 200px;
+            margin: 5px 10px;
+        }
+        /* ออกแบบสำหรับหน้าจอขนาด SM */
+        @media (min-width: 576px) {
+            .item {
+                width: 50%;
+                background-color: red;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="item">
-        <h1>Hello, World</h1>
-    </div>
+    <div class="container">
+        <div class="item">
+            asdfadfs
+        </div>
 
-    <div>
-        <h1>Tag 2</h1>
+        <div class="item">
+            asdfadfs
+        </div>
     </div>
 </body>
 </html>
