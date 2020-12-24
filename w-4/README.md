@@ -7,6 +7,11 @@ Type Scale คือการรวมกันของสไตล์สิบ
 * Sans Serif
 * Hand - Drawn font
 
+# Unit Type
+* em (หน่วยจะเป็น Relative ขึ้นอยู่กับ Parent Element)
+* rem (หน่วยจะเป็น Relative ขึ้นอยู่กับ Root Element) 
+* vh
+
 # Type Scale generator
 เครื่องมือสร้างมาตราส่วนประเภทเป็นเครื่องมือสำหรับ Type Scale และ Code ที่เกี่ยวข้อง แบบอักษรที่เลือกจะถูกปรับขนาดโดยอัตโนมัติและปรับให้เหมาะสมตามคำแนะนำใน Material Typography เพื่อให้อ่านง่าย.
 
@@ -53,8 +58,3 @@ Subtitles เล็กกว่าหัวข้อข่าว โดยทั
 
 ### Don’t use expressive fonts, including display, handwritten, and script styles for body copy.
 ![don't use expressive](https://lh3.googleusercontent.com/nxHoZ-s4mFgz6RJkN-GtofeHRip2GjqYqZTnqxQyAFf_10i26ofadMbLTYlIhjG6YZngDHeo0aPiWz5JWBzdD7pmMFpOzqR__zdz=w1064-v0)
-
-# Unit Type
-* em (หน่วยจะเป็น Relative ขึ้นอยู่กับ Parent Element)
-* rem (หน่วยจะเป็น Relative ขึ้นอยู่กับ Root Element) 
-* vh
